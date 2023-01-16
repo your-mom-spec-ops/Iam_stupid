@@ -143,12 +143,6 @@ body {
   margin-top: 30px;
 }
 
-.weather {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .clock {
   display: flex;
   align-items: center;
@@ -178,25 +172,6 @@ body {
   font-size: var(--fg-secondary);
   color: var(--fg);
 }
-
-.weatherIcon img {
-  width: 70px;
-  height: 70px;
-}
-
-.weatherValue p {
-  font-size: var(--fg-secondary);
-  font-weight: bolder;
-  margin-left: 15px;
-  color: var(--fg);
-}
-
-.weatherDescription p {
-  font-size: var(--fg-secondary);
-  margin-left: 15px;
-  color: var(--fg);
-}
-
 .reduceGap {
   grid-gap: 2rem !important;
 }
